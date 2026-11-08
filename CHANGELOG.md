@@ -13,6 +13,7 @@ on GitHub.
 *Accounts removed mid-import stay apart from new ones.*
 
 ### Fixed
+- Meeting invitations, answers and cancellations sent by MailCraft arrive in Exchange and Outlook as meetings, with buttons to answer, not as a message with an `invite.ics` file: the calendar now goes inline beside the text, with its method and character set, as iMIP (RFC 6047) asks.
 - Removing an account while its `.pst` import was still writing could leave a new account added with the same id writing into the removed account's kept data file. The two now never share a file.
 
 ## 0.33.0 - 2026-11-05

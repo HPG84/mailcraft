@@ -37,6 +37,7 @@ use mailcraft_model::dates::Clock;
 mod importance;
 pub(crate) mod index_text;
 mod kept_cid;
+mod meeting_parts;
 mod one_parse;
 mod parts_listed;
 mod reactions;
